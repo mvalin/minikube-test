@@ -12,7 +12,11 @@ First, minikube had to be installed, below are the few steps required on a MAC d
 % minikube kubectl -- get po -A
 ```
 
-### Install HyperKit in MAC
+If you have to install minikube for linux or windows, check the following link and select your correct OS to get the instructions:
+
+    (Minikube - Get Started)[https://minikube.sigs.k8s.io/docs/start/]
+
+### Install HyperKit
 
 Then, the driver for minikube had to be installed.
 
@@ -25,6 +29,13 @@ Here a link with the error, and some folks there recommended to use HyperKit:
     https://github.com/kubernetes/minikube/issues/9016
 
 Then I move to install HyperKit, [here the documentation](https://minikube.sigs.k8s.io/docs/drivers/hyperkit/) 
+
+HyperKit is only for MAC, if you are using linux or Windows, check the options in the link below:
+
+    (Minikube - Drivers)[https://minikube.sigs.k8s.io/docs/drivers/]
+
+You can choose any driver from the list, and see the option to install it and use it in minikube.
+
 
 ### Start minikube using HyperKit driver
 
@@ -61,6 +72,8 @@ Password:
 🏄  Done! kubectl is now configured to use "minikube" cluster and "default" namespace by default
 ```
 
+> Note: if you are using a different driver you have to replace hyperkit for your preferred driver.
+
 ## Create the NGINX deployment
 
 ### Create
@@ -95,7 +108,12 @@ The script basically get the logs for any pod in kubernetes, it presents a menu 
 
 ### Requirements
 
-It was used a virtual environment with Python 3.8.8, and the required libraries are listed in the `requirements.txt` file inside the GitHub.
+It was used a virtual environment with Python 3.8.8, and the required libraries are:
+- console-menu
+- rich
+- kubernetes
+
+Nevertheless, I listed the `requirements.txt` with all the libraries installed as depenncies, just for checking related libraries.
 
 ### Future features related to "show logs"
 
