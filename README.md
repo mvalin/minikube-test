@@ -14,7 +14,7 @@ First, minikube had to be installed, below are the few steps required on a MAC d
 
 If you have to install minikube for linux or windows, check the following link and select your correct OS to get the instructions:
 
-    (Minikube - Get Started)[https://minikube.sigs.k8s.io/docs/start/]
+(Minikube - Get Started)[https://minikube.sigs.k8s.io/docs/start/]
 
 ### Install HyperKit
 
@@ -26,13 +26,13 @@ I decide to use docker, but getting some issues when tried to connect to nginx b
 
 Here a link with the error, and some folks there recommended to use HyperKit: 
 
-    https://github.com/kubernetes/minikube/issues/9016
+[https://github.com/kubernetes/minikube/issues/9016]
 
-Then I move to install HyperKit, [here the documentation](https://minikube.sigs.k8s.io/docs/drivers/hyperkit/) 
+Then I move to install HyperKit, (here the documentation)[https://minikube.sigs.k8s.io/docs/drivers/hyperkit/] 
 
 HyperKit is only for MAC, if you are using linux or Windows, check the options in the link below:
 
-    (Minikube - Drivers)[https://minikube.sigs.k8s.io/docs/drivers/]
+(Minikube - Drivers)[https://minikube.sigs.k8s.io/docs/drivers/]
 
 You can choose any driver from the list, and see the option to install it and use it in minikube.
 
