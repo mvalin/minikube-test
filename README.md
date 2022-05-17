@@ -28,7 +28,7 @@ Here a link with the error, and some folks there recommended to use HyperKit:
 
 [https://github.com/kubernetes/minikube/issues/9016]
 
-Then I move to install HyperKit, (here the documentation)[https://minikube.sigs.k8s.io/docs/drivers/hyperkit/] 
+Then I move to install HyperKit, [here the documentation](https://minikube.sigs.k8s.io/docs/drivers/hyperkit/) 
 
 HyperKit is only for MAC, if you are using linux or Windows, check the options in the link below:
 
